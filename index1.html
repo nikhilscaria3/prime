@@ -73,7 +73,7 @@
                     <input class="d-flex flex-row justify-content-center mx-auto mt-1" type="number" id="years">
 
                     <button class="d-flex flex-row justify-content-center mx-auto mt-3"
-                        onclick="checkPrime()">Check Your EMI</button>
+                        onclick="checkInterest()">Check Your EMI</button>
                     <p class="d-flex flex-row justify-content-center mx-auto mt-3 text-white" id="result1"></p>
                 </div>
             </div>
@@ -105,18 +105,14 @@
 
         }
 
-        function checkPrime() {
+        function checkInterest() {
             const principle = document.getElementById('principal').value;
             const interest = document.getElementById('interest').value;
             const years = document.getElementById('years').value;
-            const result = document.getElementById('result1');
+            const result1 = document.getElementById('result1');
 
             if (isPrime(number)) {
-                result.innerText = "your EMI is" + " " + principle*interest*years/100;
-
-
-
-
+                result1.innerText = "your EMI is" + " " + principle*interest*years/100;
             }
         }
 
