@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  background-color: rgb(93, 96, 96);
+}
 .main{
 
-  background-image: linear-gradient(black,rgb(56, 54, 54));
+  background-image: linear-gradient(rgb(40, 39, 39),rgb(28, 28, 28));
   width: 100%;
   
 }
