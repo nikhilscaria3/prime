@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.row{
+.main{
 
-  background-image: linear-gradient(black,white);
+  background-image: linear-gradient(black,rgb(56, 54, 54));
   width: 100%;
- 
+  
 }
